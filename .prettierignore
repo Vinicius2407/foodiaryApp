@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# Arquivos de Build e Cache
+build/
+android/build/
+android/app/build/
+ios/build/
+.expo/
+.expo-shared/
+
+# Arquivos de lock
+package-lock.json
+yarn.lock
+
+# Outros
+coverage/
