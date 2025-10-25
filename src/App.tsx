@@ -15,6 +15,7 @@ import { HomeHeader } from "./components/HomeHeader";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { DateSwitcher } from "./components/DateSwitcher";
 import { DailyStats } from "./components/DailyStats";
+import { MealsList } from "./components/MealsList";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -60,6 +61,7 @@ export default function App() {
                     />
                 </View>
                 <View className="h-px bg-gray-200 mt-7" />
+                <MealsList />
             </SafeAreaProvider>
         </View>
     );
